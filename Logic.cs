@@ -7,6 +7,7 @@
 
 //    public class Logic
 //    {
+
 //        private CandidateRepo CandiadteRepository = new CandidateRepo();
 //        private JourneyRepo JourneyRepository = new JourneyRepo();
 //        private ConsultancyRepo ConsultancyRepository = new ConsultancyRepo();
