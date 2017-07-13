@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tracker.Candidate">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAAgAAAAAAI=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CandidateSkillSet" />
+      <Property Name="ConsultancyName" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tracker.Consultancy">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tracker.Interview">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAABAAAAAAAAAAAEBAAAAAAAAAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="InterviewPanel" />
+      <Property Name="InterviewResult" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tracker.Interviewer">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tracker.JobCategory">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JobFamily" />
+      <Property Name="JobTitle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tracker.JobFamily">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAQAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tracker.JobTitle">
+    <Position X="14.25" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAIAAAAAEAAAAAAAAEAAAAAAAAIAIAAAAAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tracker.Result">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAAAAoAAAAAIAAAAAAAIAI=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tracker.Round" Collapsed="true">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tracker.Skill">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tracker.SkillLevel">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAIAIAAAAAAAAAAAAAACCAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tracker.SkillSet">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Skill" />
+      <Property Name="SkillLevel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tracker.Vacancy">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAAAAACA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JobCategoryVacancy" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Journeys" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Tracker.Journey">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tracker.Panel">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PanelInterviewer" />
+      <Property Name="PanelRound" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

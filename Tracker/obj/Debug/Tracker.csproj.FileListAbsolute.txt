@@ -1,1 +1,10 @@
 C:\Tracker\Tracker\bin\Debug\Tracker.exe.config
+C:\Tracker\Tracker\bin\Debug\Tracker.exe
+C:\Tracker\Tracker\bin\Debug\Tracker.pdb
+C:\Tracker\Tracker\bin\Debug\EntityFramework.dll
+C:\Tracker\Tracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Tracker\Tracker\bin\Debug\EntityFramework.xml
+C:\Tracker\Tracker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Tracker\Tracker\obj\Debug\Tracker.csprojResolveAssemblyReference.cache
+C:\Tracker\Tracker\obj\Debug\Tracker.exe
+C:\Tracker\Tracker\obj\Debug\Tracker.pdb
