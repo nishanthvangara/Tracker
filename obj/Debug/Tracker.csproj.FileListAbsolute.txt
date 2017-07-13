@@ -8,3 +8,6 @@ C:\Tracker\Tracker\bin\Debug\EntityFramework.SqlServer.xml
 C:\Tracker\Tracker\obj\Debug\Tracker.csprojResolveAssemblyReference.cache
 C:\Tracker\Tracker\obj\Debug\Tracker.exe
 C:\Tracker\Tracker\obj\Debug\Tracker.pdb
+C:\Tracker\bin\Debug\Tracker.exe.config
+C:\Tracker\obj\Debug\Tracker.exe
+C:\Tracker\obj\Debug\Tracker.pdb
